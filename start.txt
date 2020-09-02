@@ -1,0 +1,403 @@
+博客学院下载论坛问答直播招聘VIP会员
+搜CSDN
+
+创作中心
+
+
+寒生1988
+码龄8年
+暂无认证
+110
+原创
+1万+
+周排名
+5609
+总排名
+93万+
+访问
+
+等级
+9303
+积分
+62
+粉丝
+189
+获赞
+14
+评论
+69
+收藏
+
+
+
+TA的主页
+私信
+关注
+搜博主文章
+
+最新文章
+移动端框架选型
+Android:检查通知权限并跳转到通知设置界面
+ES6 新增功能点整理
+android项目中在webview中打开pdf
+H5异步编程学习笔记
+分类专栏
+
+Android之应用实战
+34篇
+
+Android之基础总结
+20篇
+
+Java之基础总结
+9篇
+
+Java之算法与数据结构
+3篇
+
+Android之设计模式
+26篇
+
+Android之性能优化
+8篇
+
+Android小技巧
+6篇
+
+html5
+12篇
+
+项目构建
+16篇
+
+心得体会
+2篇
+
+微信
+2篇
+
+springMvc
+33篇
+
+linux
+5篇
+
+归档
+2020
+5月
+4篇
+3月
+1篇
+1月
+1篇
+2019
+12月
+4篇
+10月
+1篇
+9月
+3篇
+8月
+3篇
+7月
+1篇
+5月
+5篇
+4月
+4篇
+2月
+8篇
+1月
+8篇
+2018
+12月
+13篇
+11月
+7篇
+9月
+7篇
+6月
+1篇
+5月
+1篇
+2017
+7月
+1篇
+2月
+2篇
+2016
+5月
+5篇
+4月
+17篇
+2月
+5篇
+1月
+35篇
+2015
+12月
+36篇
+热门文章
+gitHub客户端Desktop的安装使用总结 ---基础篇 60664
+国家统计局 2019年省市区数据（自取） 15168
+Android小技巧：动态设置布局属性addRule 13073
+Android小技巧：WebView回退 9360
+Android --调启百度地图 8801
+最新评论
+国家统计局 2019年省市区数据（...
+寒生1988 回复 也就一般般啦！： 这个统计网站就不包含台湾，香港，澳门的 ：“统计用区划代码和城乡划分代码的区划范围，是国家统计局开展统计调查的区划范围。未包括我国台湾省、香港特别行政区、澳门特别行政区。 ”
+
+国家统计局 2019年省市区数据（...
+也就一般般啦！ ： 你这个31个省？ 台湾,澳门，香港没有？？
+
+Android基础-数据库SQLi...
+忙着剪视频 ： 没找到模糊查询
+
+spring boot 学习笔记 ...
+zwh_wq_123 ： 如何启动？
+
+spring boot 学习笔记 ...
+wujianqinjian ： 有趣，感谢分享
+
+
+ 
+目录
+一、第一步 注册github账号
+1.注册界面
+2.下注册流程
+3.上面简单的输入一下用户名、邮箱地址、密码点击创建即可，进入下一步，如下图：
+4.选择免费版本
+二、创建仓库
+1、如果你是想自己上传代码，需要创建代码仓库，
+2、如果你是想修改别人的代码，
+三、Desktop 的安装
+1、下载
+2、整体的界面
+三、Desktop 的使用
+1、点开左上角的加号，创建一个仓库，
+①这里需要注意的下载网上的代码，
+②在我的电脑中，它默认的地址是D:\用户目录\我的文档\GitHub ,
+2、创建仓库完成，
+3、点击Sync按钮
+4、合并代码
+四、其他
+1、删除网上仓库。
+gitHub客户端Desktop的安装使用总结 ---基础篇
+
+寒生1988 2015-12-11 11:41:57  60677  收藏 19
+分类专栏： Android之应用实战
+版权
+这段时间想把我写的东西上传到github上，所以开始收集资料学习，走了很多弯路( msysgit和极慢的翻墙网速让我欲仙欲死)，最后找到了比较好用的工具gitHub desktop。在此做出详细记录。
+
+一、第一步 注册github账号
+1.注册界面
+https://github.com/，如下图：
+
+这里写图片描述
+
+2.下注册流程
+这里写图片描述
+
+3.上面简单的输入一下用户名、邮箱地址、密码点击创建即可，进入下一步，如下图：
+这里写图片描述
+
+如果勾选了“Help me set up an organization next” 就会进入创建organization的流程。（我注册的时候选了，创建了个组织，觉得个人用户创建这个没什么用，后面使用时还被误导了）
+
+4.选择免费版本
+（免费版本只能创建公共的仓库，其他版本可以创建个人private版本） 点击“Finish Sign Up”，到这里我们的GitHub账号就注册完成了。
+
+这里写图片描述
+
+二、创建仓库
+1、如果你是想自己上传代码，需要创建代码仓库，
+点击“”New repository 创建自己的代码仓库(当然你得先验证你注册时填写的邮箱)
+
+这里写图片描述
+
+这里写图片描述
+
+2、如果你是想修改别人的代码，
+只需在对应的项目中点击“Fork”按钮，然后就可以看到该项目在自己的账号中了。
+。这里写图片描述
+
+三、Desktop 的安装
+一般情况我们还需要将代码下载到本地，用编译工具去修改，这就有同步代码到网上仓库的问题，很多人介绍使用msysgit和它的客户端，但是我弄了好久都没有弄好(配置啊，SSH Key啊，翻墙下载啊，奔溃了)。后来用desktop才最后弄好。
+
+1、下载
+在官网上可以下载，https://desktop.github.com/。
+我的翻墙网速太慢了，招了一个离线安装包，亲测可以用，http://download.csdn.net/detail/nevinblog/9031049
+
+2、整体的界面
+安装好后打开 用你的GitHub账号登陆。(需要注意的是，Github for Windows会帮你创建SSH Key，你打开邮件应该会收到邮件帮你创建SSH Key的信息，这也省了不少事)
+整体的界面如下：
+这里写图片描述
+
+三、Desktop 的使用
+1、点开左上角的加号，创建一个仓库，
+这里写图片描述
+
+注意：
+
+①这里需要注意的下载网上的代码，
+点看Clone，选着你的账户，会出现你网上仓库中的项目，选着一个，点击Clone repository按钮即可。
+这里写图片描述
+
+在网上有的人说可以在网上仓库中点击 按钮“Save ** to your computer and use it in GitHub Desktop.”按钮去同步，但是我没有成功。
+另外直接“DownLoad zip”到本地 ，然后创建仓库，但是最后public时失败，说我没有权限，（我认为可能是因为本地仓库是我创建的，所以gitHub认为本地的和网上的不是同一个），
+ 不知道有没有大神知道任何解决这个问题，
+1
+2
+3
+这里写图片描述
+
+②在我的电脑中，它默认的地址是D:\用户目录\我的文档\GitHub ,
+因为存在汉语，我的编译工具认为它里面的项目有问题，所以需要移动到全英文路劲中。尤其是下载线上的代码时，会默认到这个文件目录中。
+这个默认路劲在设置（齿轮图标）–> options–>Clone Path 中修改。
+这里写图片描述
+
+2、创建仓库完成，
+创建仓库完成后在本地 文件夹下会生成一些系统文件。现在你在仓库下添加文件，修改文件等操作都会被本地github客户端监测，在客户端右上角的changes中可以看到提示。点击这个提示，弹出提交框。
+这里写图片描述
+填写日志，点击提交按钮，文件改变就会被记录下来，这时候修改记录中会生成一个新的节点。
+
+这里写图片描述
+
+3、点击Sync按钮
+点击Sync按钮，这些修改就会同步到你网上的仓库中。（如果是第一次这个按钮叫“Public”）。在你的gitHub账号中找到这个仓库，刷新之后就会发现文件已经改变了。
+这里需要注意的是，如果你的代码时fork之后下载下来的，但是你创建了新的仓库去存储它，或者改变了它的存储目录，你可能会发布失败，
+
+4、合并代码
+如果你是修改别人的代码，还有一个合并的过程。（这个过程我执行到最后，如果有问题请指出，谢谢）
+这里写图片描述
+点击“ Pull request ”会出现你改动的文件目录，确认之后点击“ Create Pull request ”按钮，
+这里写图片描述
+提价合并申请，填写相关信息，点击提交就可以了
+这里写图片描述
+
+四、其他
+1、删除网上仓库。
+(因为创建了很多测试仓库，需要删除，这个删除功能也找了好一会，在此记录)
+
+在从个人主页点击要删除的项目，进入项目页面。找到“Setting”按钮，在最下面有删除按钮，填写要删除的项目名称，就可删除了。
+这里写图片描述
+
+还有很多细节正在学习中。如有错误，请提出，谢谢！！
+
+
+点赞
+37
+
+评论
+5
+
+分享
+
+收藏
+19
+
+手机看
+
+打赏
+
+关注
+opDesk （XP下模仿vista3D界面） 绿色特别版 V1.4.104-05尽管多任务多进程的Windows操作系统的确给我们的工作和生活带来了不少的方便，但随着我们电脑配置越来越强劲，因此同时 打开的运行的程序也越来越多，如何在众多窗口中快速切换到目标也就成为众多用户所急需
+lililuni的博客
+ 1万+
+
+GitHub Desktop 的使用教程 
+目录1：序言 2：注册GitHub账号并创建自己的仓库 1：注册GitHub 2：创建自己的仓库3：GitHub Desktop 的安装4：GitHub客户端的使用 1：将网上仓库克隆到本地5：删除GitHub主页的仓库6：将别人的项目添加到自己的仓库后续学习1：序言 最近想把自己写的东西上传到......
+
+优质评论可以帮助作者获得更高权重
+binggetong
+码哥码哥binggetong:很详细啊，get了2年前回复
+点赞
+SchopenhauerZhang
+SchopenhauerZhang:create 时出现了 debug the state of this repo 的问题，我要上传代码到github怎么弄？4年前回复
+点赞
+SchopenhauerZhang
+SchopenhauerZhang:create 时出现了 debug the state of this repo 的问题，我要上传代码到github怎么弄？4年前回复
+点赞
+SchopenhauerZhang
+SchopenhauerZhang:create 时出现了An error occurred while creating the repository. You might need to open a shell and debug the state of this repo.这怎么解决，我要从本地上传代码到我github账户。4年前回复
+点赞
+u010551600
+阿桑-:谢谢了，学习了！4年前回复
+点赞
+Java155的博客
+ 3万+
+
+Github及desktop使用教程（入门级） 
+本教程内容仅讲述Github的初步使用，达到将Github作为个人的代码仓库水平，全文分为：一，Github的注册与创建repository（仓库），共6小步（注册4，创建仓库2）二，软件GitHubDesktop的下载与安装，共2小步三，GitHubDesktop的使用（添加、修改、删除、同步），共3小步...
+weixin_41272892的博客
+ 8969
+
+【GitHub Desktop】(GitHub Windows桌面版) 中文汉化，(GitHub客户端汉化，非网页端插件) 
+GitHub桌面版菜单什么的都是英文，官方好像没有出中文，闲着自己搞了一个，汉化还在完善。GitHub地址1.首先下载安装Github Desktop官方原版：（已安装GitHub Desktop的请直接看标题2）GitHub Desktop（Download for Windows）：下载Github桌面版安装注册登录什么的，这里不做过多赘述了~（原版为英文版）2.......
+gitHub客户端Desktop的安装使用总结 ---基础篇_zwj1030..._CSDN博客
+8-28
+
+出自:http://m.blog.csdn.net/article/details?id=50261857这段时间想把我写的东西上传到github上,所以开始收集资料学习,走了很多弯路( msysgit和极慢的翻墙网速...
+gitHub客户端Desktop的安装使用总结 ---基础篇 - robinson_911的...
+12-11
+
+这段时间想把我写的东西上传到github上,所以开始收集资料学习,走了很多弯路( msysgit和极慢的翻墙网速让我欲仙欲死),最后找到了比较好用的工具gitHub desktop。在...
+Archie
+ 2万+
+
+githubDesktop的使用说明（附下载链接） 
+step1 ：下载 百度云链接https://pan.baidu.com/s/1luAFF8gGddWFqgbq-_X0cg 提取码: 5xdj包含 git github forwindows githubforMac 以及notepad++step2：安装 这个安装程序，是强制安装路径的，所以不要乱搞 下载之后直接点击就行。step3 登入大概就是...
+Yoc Lu
+ 1万+
+
+GitHub Desktop使用简介 
+GitHub Desktop使用简介参考博客1.安装git Windows 客户端—GitHub Desktop具有git功能的Windows客户端软件有很多，如：git for windows（以前的msysGit）、TortoiseGit、GitHub Desktop（以前的GitHub for Windows）等git for windows git 原产于 Linux，...
+[转]gitHub客户端Desktop的安装使用总结 ---基础篇 - w..._CSDN博客
+9-27
+
+gitHub客户端Desktop的安装使用总结 ---基础篇 阅读数 4 这段时间想把我写的东西上传到github上,所以开始收集资料学习,走了很多弯路(msysgit和极慢的FQ网速让我...
+gitHub客户端Desktop的安装使用总结 ---基础篇_weixin..._CSDN博客
+8-24
+
+gitHub客户端Desktop的安装使用总结 ---基础篇 bill_live 2016-09-21 16:09:00 45 收藏 文章标签: 运维操作系统 最后发布:2016-09-21 16:09:00首次发布...
+Free_Yu
+ 3万+
+
+GitHub的Windows客户端的使用教程 
+GitHub for Windows客户端的使用教程 干了这么久的Android开发是时候发表博客来记载自己的所学，方便以后温故而知新。第一篇就拿GitHub的使用来练练手，当然，本博客如果地方哪些说的不对的地方请多多包涵，也感谢各位指出，感激不尽。不多说，下面进入正题...
+OceanStar的博客
+ 48
+
+githubdesktop入门：入门及单人项目创建及删除 
+一、准备工作1.1 注册Github账号1.2 下载、安装Github for Windows这个安装包直接剪切掉，放到你想安装到的文件夹里就好，第一次运行他自己会搞定。1.3 登陆并调整你的邮箱、名称等二、功能介绍2.1创建仓库首先我们需要创建一个仓库来放我们的工程。使用菜单的File->new reposotiry填写name（你这个仓库会放你的项目，可以不止一个）和......
+GitHub客户端Desktop的安装和使用总结 - weixin_30877181的博客...
+9-25
+
+gitHub客户端Desktop的安装使用总结 ---基础篇 阅读数 5万+ 这段时间想把我写的东西上传到github上,所以开始收集资料学习,走了很多弯路(msysgit和极慢的翻墙...
+GitHub Desktop的简易使用方法_xiaolongqinghua的博客..._CSDN博客
+8-21
+
+原生的git要用较为繁琐的命令操作,其实我们可以使用官方GitHub desktop软件进行图形界面操作,非常方便,不过第一步,要先安装git。一、安装git...
+guobao_xiao的博客
+ 6368
+
+Github最新客户端的简单使用教程 
+1.下载安装客户端在官网https://github-for-windows.en.softonic.com/?ex=BB-527.0 下载github最新客户端2.下载之后安装，在桌面生成以下快捷方式注册登录如果没有github账号需注册一个，有的话直接登陆即可3.在本地建仓库并上传到远程仓库点击Create new repository 创建一个新的仓库......
+galen2016的博客
+ 4446
+
+【python】Pytest+Request+Allure+Jenkins 接口自动化测试Demo 
+概要：对postman的一个接口做了接口自动化测试，使用Pytest+Request+Allure+Jenkins 框架技术栈：python3 、pytest、RequestsAllureJenkins测试接口介绍本例使用Postman自带的一个接口来做测试，url如下：https://postman-echo.com/time/before?timestamp=2016-10-......
+如何使用Github Desktop客户端_风雨中De追梦人-CSDN博客
+8-26
+
+GitHub于今年8月份为Mac和Windows平台发布了统一的桌面版客户端,用以取代之前两个平台上的apps。如果你的电脑上已经安装过,那么它们会自动更新为GitHub Desktop,并且...
+GitHub 和 GitHubDesktop 的使用步骤!!!_houyingshang..._CSDN博客
+8-28
+
+gitHub客户端Desktop的安装使用总结---基础篇 这段时间想把我写的东西上传到github上,所以开始收集资料学习,走了很多弯路( msysgit和极慢的翻墙网速让我欲仙欲死...
+©️2020 CSDN 皮肤主题: 编程工作室 设计师: CSDN官方博客 返回首页
+关于我们 招聘 广告服务 网站地图  kefu@csdn.net 客服论坛 400-660-0108 QQ客服（8:30-22:00）
+公安备案号 11010502030143 京ICP备19004658号 京网文〔2020〕1039-165号 版权与免责声明 版权申诉 网络110报警服务
+中国互联网举报中心 家长监护 版权申诉 北京互联网违法和不良信息举报中心 ©1999-2020 北京创新乐知网络技术有限公司
+
+举报
